@@ -8,8 +8,6 @@ String Descricao;
 
 final static int IDADEMINIMA = 18;
 
-// função que coleta todos os users
-
-public GetUsers() {return [];}
+public getUsers() {return [];}
 
 }
