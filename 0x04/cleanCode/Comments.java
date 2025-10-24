@@ -1,9 +1,7 @@
 public class Comments {
 
-    // este método retorna o proprietário do caso de teste.
     public Owner getTestcaseOwner(Testcase testcase){}; 
 
-    // retorna horas em mês
     public Hours getHoursInQuarter(){}; 
 
     public void check(){
