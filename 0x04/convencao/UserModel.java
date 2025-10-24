@@ -2,11 +2,11 @@
 
 class UsersModels {
 
-int IdUser;
+int idUser;
 
-String Descricao;
+String descricao;
 
-final static int IDADEMINIMA = 18;
+final static int IDADE_MINIMA = 18;
 
 public getUsers() {return [];}
 
