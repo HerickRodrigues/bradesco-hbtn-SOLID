@@ -16,15 +16,15 @@ public class LoggerInFile {
 
         fileHandler = new FileHandler("logs.txt");
 
-        Logger.addHandler(fileHandler);
+        logger.addHandler(fileHandler);
 
         simpleFormatter simpleFormatter = new SimpleFormatter();
 
         fileHandler.setFormatter(simpleFormatter);
 
-        Logger.info("teste de Log");
+        logger.info("teste de Log");
 
-        Logger.info("Olá, eu sou o teste da classe principal");
+        logger.info("Olá, eu sou o teste da classe principal");
 
     }
 
